@@ -1,0 +1,208 @@
+#top{
+    background-color: rgb(9, 146, 9);
+    display: flex;
+    gap: 5%;
+    color: white;
+}
+#navbar{
+    display: flex;
+    gap: 5%;
+}
+.flower{
+    width: 820px;
+}
+.summer{
+    display: flex;
+    gap: 9%;
+}
+.plants{
+    display: flex;
+}
+#plants1{
+    display: flex;
+}
+#potted{
+    display: flex;
+    gap: 3%;
+}
+#arrivals{
+    text-align: center;
+}
+#vases{
+    display: flex;
+    gap: 10%;
+}
+.vesel{
+    display:flex;
+}
+.button{
+    background-color: rgb(65, 104, 7);
+    color: white;
+    width: 180px;
+    height: 35px;
+    border-radius: 5px;
+}
+#tree{
+    display: flex;
+    gap: 20%;
+}
+.living{
+    background-image: url(pics/floral.jpg);
+    height: 500px;
+    width: 1000px;
+    text-align: center;
+    margin-left: 30%;
+}
+#amaizing{
+    display: flex;
+    gap: 9%;
+}
+.pots{
+    height: 150px;
+    width: 150px;
+}
+#cactus{
+    display: flex;
+    gap: 25%;
+}
+#blogs{
+    display: flex;
+    gap: 20%;
+    margin-top: 8%;
+}
+#clients{
+    text-align: center;
+}
+#client{
+    display: flex;
+    gap: 13%;
+}
+.range{
+    text-align: center;
+}
+#footer{
+    display: flex;
+    gap: 25%;
+}
+
+@media screen and (max-width:650px){
+    body{
+        padding: 0;
+        width: 100%;
+        margin: 0;
+        font-size: small;
+        text-align: center;
+    }
+    #top{
+        background-color: rgb(9, 146, 9);
+        flex-wrap: wrap;
+    
+        color: white;
+    }
+    #navbar{
+        flex-wrap: wrap;
+
+    }
+    .flower{
+        width: 820px;
+    }
+    .summer{
+        flex-wrap: wrap;
+        font-size: small;
+
+    }
+    .plants{
+        flex-wrap: wrap;
+    }
+    #plants1{
+        flex-wrap: wrap;
+    }
+    #potted{
+        flex-wrap: wrap;
+
+    }
+    #arrivals{
+        text-align: center;
+    }
+    #vases{
+        flex-wrap: wrap;
+
+    }
+    .vesel{
+        flex-wrap: wrap;
+    }
+    .button{
+        background-color: rgb(65, 104, 7);
+        color: white;
+        width: 50px;
+        height: 35px;
+        border-radius: 5px;
+    }
+    #tree{
+        flex-wrap: wrap;
+
+    }
+    .living{
+        background-image: url(pics/floral.jpg);
+        height: 150px;
+        width: 150px;
+        text-align: center;
+       
+    }
+    #amaizing{
+        flex-wrap: wrap;
+
+    }
+    .pots{
+        height: 45px;
+        width: 45px;
+    }
+    #cactus{
+        flex-wrap: wrap;
+
+    }
+    #blogs{
+        flex-wrap: wrap;
+
+        margin-top: 8%;
+    }
+    #clients{
+        text-align: center;
+    }
+    #client{
+        flex-wrap: wrap;
+
+    }
+    .range{
+        text-align: center;
+    }
+    #footer{
+        flex-wrap: wrap;
+
+    }
+    .img1{
+        width: 35%;
+        margin-right: 100%;
+ 
+    }
+    .img2{
+        width: 35%;
+    } 
+    .img3{
+        width: 35%;
+    } 
+    .img4{
+        width: 35%;
+    }
+    .img5{
+        width: 35%;
+    }
+    .img6{
+        width: 35%;
+        height: 35%;
+    }
+    .img7{
+        width: 35%;
+        height: 45%;
+    }
+}
